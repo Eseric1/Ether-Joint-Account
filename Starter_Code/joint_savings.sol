@@ -86,6 +86,4 @@ uint public contractBalance;
     /*
     Finally, add the **default fallback function** so that your contract can store Ether sent from outside the deposit function.
     */
-    fallback () external payable {
-    // Function body
-    }
+    function() external payable {}
